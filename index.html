@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+
 <head>
-	<title>Seria A</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <title>Seria A</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <meta name="robots" content="index, follow">
+ <meta name="author" content="Nikolay Solodukhin">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
+
 <body>
-<div id="container">
-	<table id="foot-tab">
-		<thead>
-			<tr class="foot-tab__row">
-				<th class="foot-tab__title" id="place"></th>
-				<th class="foot-tab__title-team">Команда</th>
-				<th class="foot-tab__title" id="matches">М</th>
-				<th class="foot-tab__title" id="win">В</th>
-				<th class="foot-tab__title" id="draw">Н</th>
-				<th class="foot-tab__title" id="lose">П</th>
-				<th class="foot-tab__title" id="goals">Заб</th>
-				<th class="foot-tab__title" id="conceded_goals">Проп</th>
-				<th class="foot-tab__title" id="score">О</th>
-			</tr>			
-		</thead>
-		<tbody></tbody>
-	</table>
-	<p class="text"><span class="text_bold">М</span> – матчи, <span class="text_bold">В</span> – выигрыши, <span class="text_bold">Н</span> – ничьи, <span class="text_bold">П</span> – проигрыши, <span class="text_bold">Заб</span> – забитые голы, <span class="text_bold">Проп</span> – пропущенные голы, <span class="text_bold">О</span> – очки в турнире</p>
-</div>
-<script type="text/javascript" src="common.js"></script>
+ <div id="container">
+  <table id="foot-tab">
+   <thead>
+    <tr class="foot-tab__row">
+     <th class="foot-tab__title" id="place"></th>
+     <th class="foot-tab__title-team">Команда</th>
+     <th class="foot-tab__title" id="matches">М</th>
+     <th class="foot-tab__title" id="win">В</th>
+     <th class="foot-tab__title" id="draw">Н</th>
+     <th class="foot-tab__title" id="lose">П</th>
+     <th class="foot-tab__title" id="goals">Заб</th>
+     <th class="foot-tab__title" id="conceded_goals">Проп</th>
+     <th class="foot-tab__title" id="score">О</th>
+    </tr>
+   </thead>
+   <tbody></tbody>
+  </table>
+  <p class="text">
+   <span class="text_bold">М</span> – матчи,
+   <span class="text_bold">В</span> – выигрыши,
+   <span class="text_bold">Н</span> – ничьи,
+   <span class="text_bold">П</span> – проигрыши,
+   <span class="text_bold">Заб</span> – забитые голы,
+   <span class="text_bold">Проп</span> – пропущенные голы,
+   <span class="text_bold">О</span> – очки в турнире
+  </p>
+ </div>
+
+ <script type="text/javascript" src="js/common.js"></script>
 </body>
+
 </html>
